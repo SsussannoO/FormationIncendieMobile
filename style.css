@@ -8,7 +8,7 @@ body{background-color: black;}
     max-width: 513px;
     position: center;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 .prev, .next {
     cursor: pointer;
