@@ -5,11 +5,22 @@ body{background-color: black;}
 
 .custom-slider { display: none; }
 .slide-container {
-    max-width: 513px;
+    max-height: 360px;
+    max-width: 500px;
     position: center;
     margin: auto;
-    margin-top: 0px;
 }
+    
+    .responsive-iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    }
+
+
 .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -39,19 +50,9 @@ body{background-color: black;}
     object-fit: fill;
     object-position: center;
 }
-.slide-video{
-    width: 100%;
-    height: auto;
-    object-fit: fill;
-    object-position: center;
-}
 
-.video-sm{
-    width: 513px;
-    height: auto;
-    object-fit: fill;
-    object-position: center;
-}
+
+
 
 .fade {
     animation-name: fade;
