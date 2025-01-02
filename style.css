@@ -3,7 +3,7 @@
 .custom-slider { display: none; }
 .slide-container {
     max-height: 360px;
-    max-width: 500px;
+    max-width: 400px;
     position: center;
     margin: auto;
 }
